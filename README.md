@@ -1,6 +1,6 @@
 # TimeAgo plugin for Craft CMS 3.x
 
-Displays time ago for timestamp
+Displays time ago for a given timestamp value within a Craftcms3 Twig template.
 
 ## Requirements
 
