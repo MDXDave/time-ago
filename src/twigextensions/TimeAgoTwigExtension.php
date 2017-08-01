@@ -10,8 +10,6 @@
 
 namespace mdxdave\timeago\twigextensions;
 
-require dirname(__FILE__).'/../../vendor/autoload.php';
-
 use mdxdave\timeago\TimeAgo;
 use Craft;
 use Carbon\Carbon;
