@@ -30,7 +30,7 @@ class TimeAgo extends Plugin
         self::$plugin = $this;
 
         // Add in our Twig extensions
-        Craft::$app->view->twig->addExtension(new twigextensions\TimeAgoTwigExtension());
+        Craft::$app->view->registerTwigExtension(new twigextensions\TimeAgoTwigExtension());
 
         Craft::info(
             Craft::t(
