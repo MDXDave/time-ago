@@ -23,14 +23,19 @@
     ],
     "require": {
         "craftcms/cms": "^4.0.0",
-        "nesbot/carbon": "^1.22"
+        "nesbot/carbon": "^2.0.0"
     },
     "config": {
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true,
+            "kylekatarnls/update-helper": true
+        }
     },
     "autoload": {
         "psr-4": {
-          "mdxdave\\timeago\\": "src/"
+            "mdxdave\\timeago\\": "src/"
         }
     },
     "extra": {
