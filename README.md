@@ -1,10 +1,10 @@
-# TimeAgo plugin for Craft CMS 3.x
+# TimeAgo plugin for Craft CMS 4.x
 
 Displays time ago for a given timestamp value within a Craftcms3 Twig template.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0 or later.
+This plugin requires Craft CMS 4.0.0 or later.
 
 ## Installation
 

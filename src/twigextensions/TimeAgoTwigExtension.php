@@ -1,20 +1,20 @@
 <?php
 /**
- * TimeAgo plugin for Craft CMS 3.x
+ * TimeAgo plugin for Craft CMS 4.x
  *
  * Shows time ago postDate
  *
  * @link      https://mdxdave.de
- * @copyright Copyright (c) 2017 MDXDave
+ * @copyright Copyright (c) 2022 MDXDave
  */
 
 namespace mdxdave\timeago\twigextensions;
 
-use mdxdave\timeago\TimeAgo;
-use Craft;
 use Carbon\Carbon;
+use Twig\Extension\AbstractExtension;
+use Twig\TwigFilter;
 
-class TimeAgoTwigExtension extends \Twig_Extension
+class TimeAgoTwigExtension extends AbstractExtension
 {
     public function getName()
     {
@@ -24,7 +24,7 @@ class TimeAgoTwigExtension extends \Twig_Extension
     public function getFilters()
     {
         return [
-            new \Twig_SimpleFilter('timeAgo', [$this, 'timeAgo']),
+            new TwigFilter('timeAgo', [$this, 'timeAgo']),
         ];
     }
 
