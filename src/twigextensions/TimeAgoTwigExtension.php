@@ -1,11 +1,11 @@
 <?php
 /**
- * TimeAgo plugin for Craft CMS 4.x
+ * TimeAgo plugin for Craft CMS 5.x
  *
  * Shows time ago postDate
  *
  * @link      https://mdxdave.de
- * @copyright Copyright (c) 2022 MDXDave
+ * @copyright Copyright (c) 2024 MDXDave
  */
 
 namespace mdxdave\timeago\twigextensions;
@@ -28,7 +28,7 @@ class TimeAgoTwigExtension extends AbstractExtension
         ];
     }
 
-    function timeAgo($datetime, $lang="en") {
+    function timeAgo($datetime, $lang = "en") {
         Carbon::setLocale($lang);
         return Carbon::createFromTimestamp($datetime)->diffForHumans();
     }

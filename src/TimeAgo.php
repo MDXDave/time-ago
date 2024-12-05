@@ -1,11 +1,11 @@
 <?php
 /**
- * TimeAgo plugin for Craft CMS 3.x
+ * TimeAgo plugin for Craft CMS 5.x
  *
  * Shows time ago postDate
  *
  * @link      https://mdxdave.de
- * @copyright Copyright (c) 2017 MDXDave
+ * @copyright Copyright (c) 2024 MDXDave
  */
 
 namespace mdxdave\timeago;

@@ -1,8 +1,8 @@
 {
     "name": "mdxdave/time-ago",
-    "description": "Displays time ago for timestamp",
+    "description": "Displays the time has been past since a given date",
     "type": "craft-plugin",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "keywords": [
         "craft",
         "cms",
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^4.0.0",
+        "craftcms/cms": "^4.0.0|^5.0.0",
         "nesbot/carbon": "^2.0.0"
     },
     "config": {
@@ -41,7 +41,7 @@
     "extra": {
         "name": "TimeAgo",
         "handle": "time-ago",
-        "schemaVersion": "1.1.0",
+        "schemaVersion": "1.2.0",
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/mdxdave/time-ago/master/CHANGELOG.md",
